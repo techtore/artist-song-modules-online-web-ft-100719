@@ -1,5 +1,5 @@
 require 'pry'
-require_relative './concerns/memorable'
+require_relative './config.environment.rb'
 
 class Artist
   extend Memorable
